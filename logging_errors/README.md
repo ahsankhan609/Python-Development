@@ -7,6 +7,6 @@
 - Monitioring your code
 - Catching Problems
 - Catching bugs
-
-> loggins is beneficial when trackign user activities in the web app.
-
+- logging is beneficial when tracking user activities in the web app
+- Recording system errors, in production environment
+- troubleshooting background tasks in data processing tasks
