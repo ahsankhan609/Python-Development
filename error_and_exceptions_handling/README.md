@@ -1,7 +1,7 @@
 ## Error Handling - Exception Handling In Python - try except finally else
 
 * [Youtube Video](https://www.youtube.com/watch?v=zu9Hc9aSWFc)
-* [GIT Repo](https://github.com/mayank953/Youtube/tree/main/Error%20Handling)
+* [YT Video resource to practice](https://github.com/mayank953/Youtube/tree/main/Error%20Handling)
 * [Blog](https://www.programiz.com/python-programming/exception-handling)
 * [Blog - Explaination](https://www.youtube.com/watch?v=brICUKrzVR0)
 
