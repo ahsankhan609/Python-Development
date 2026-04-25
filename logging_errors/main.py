@@ -7,6 +7,7 @@ logger = logging.getLogger(__name__)
 
 # create handlers
 console_handler = logging.StreamHandler()
+
 # file_handler = logging.FileHandler()
 rotating_file_handler = RotatingFileHandler(
     "logging_errors/app.log", maxBytes=2000, backupCount=5)
@@ -29,4 +30,3 @@ logger.addHandler(rotating_file_handler)
 # log Messages
 logger.warning("This is a warning")
 logger.error("This is an error")
-

@@ -1,9 +1,13 @@
 # Logging Errors Like a PRO in Python Made Easy
 
-[Lecture Video](https://youtu.be/ulCL6JcCBI4?si=shRZSyJy-JYxnCDk)
-[git](https://github.com/ahsankhan609/Python-Development/tree/master/logging_errors)
+* [git](https://github.com/ahsankhan609/Python-Development/tree/master/logging_errors)
 
-## Benefits of having log
+* [Lecture Video](https://youtu.be/ulCL6JcCBI4?si=shRZSyJy-JYxnCDk)
+* [Python Logging - Tutorial](https://www.youtube.com/watch?v=urrfJgHwIJA)
+* [Documentation](https://docs.python.org/3/library/logging.html#logrecord-attributes)
+
+
+### Benefits of having log
 
 - Monitioring your code
 - Catching Problems
