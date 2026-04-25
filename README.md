@@ -1,6 +1,6 @@
 # Learn Python by Doing
 
-In this repository we will learn python by writing programs and with examples.
+In this repository we will learn python by writing codes, programs and projects.
 
 ## Installing required dependencies
 
