@@ -13,3 +13,8 @@ pip install -r requirements.txt
 ```shell
 python.exe -m pip install --upgrade pip
 ```
+
+## Run `mypy` for checking `type annotation` checking
+```bash
+uv run mypy main.py
+```
