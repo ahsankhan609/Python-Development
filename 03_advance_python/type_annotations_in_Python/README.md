@@ -17,3 +17,9 @@ it makes our code safe & reliable. this course is for some experienced developer
 - [Youtube](#)
 
 ---
+
+## Check strict type annotation with `mypy` library:
+
+```bash
+uv run mypy main.py
+```
