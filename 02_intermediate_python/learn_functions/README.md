@@ -2,12 +2,12 @@
 
 ---
 
-### Code Resources:
+### Course Resources:
 - [Functions in Python - CodeYug](https://www.youtube.com/playlist?list=PLI4OVrCFuY54obnQ2gqfLKsy6l6a_o5dl) ✅
 - [Lecture 6 : Functions & Recursion in Python](https://www.youtube.com/watch?v=OvTH-7ESoRA) 📚
 
 ---
-
+### `Builtin Functions` explained
 - [49 Useful Built-In Functions in Python](https://www.youtube.com/watch?v=M16LicU5WfM) 📚
 - [Why I Explicitly Return “None” In All My Functions (Python)](https://www.youtube.com/watch?v=GSZhXVjuLgA)✅
 - [Please Master These 10 Python Functions](https://www.youtube.com/watch?v=kGcUtckifXc) 📚
@@ -22,7 +22,7 @@
 
 ---
 
-## LMABDA Function
+## LAMBDA Function
 
 - [Python Lambda Functions Explained](https://youtu.be/HQNiSfb795A?si=OtKsHZcpkRBSmVb2)
 - [Python Lambda Functions??](https://youtu.be/KR22jigJLok?si=8reNpkI8vsBFkRKp)
