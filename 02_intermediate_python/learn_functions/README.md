@@ -26,19 +26,7 @@
 
 - [Python Lambda Functions Explained](https://youtu.be/HQNiSfb795A?si=OtKsHZcpkRBSmVb2)
 - [Python Lambda Functions??](https://youtu.be/KR22jigJLok?si=8reNpkI8vsBFkRKp)
-- It is created using `lambda` keyword
-- It is nameless function, that's why called anonymous functions as well
 
-Syntax:-
-
-```python
-lambda arg_list:expression/python statement
-```
-
-- We can't write multiple python statements or multiple statements. We can write only short python statements
-- we can have multiple arguments values, separated by commas,  Such as default argument, Keyword Arguments or Positinal Arguments
-- there is no return keyword here, by default it is present here
-- So what ever expression will be evaluated, it will be return automatically
 - to call lambda function we will use alias. For example: add = lambda a,b:a+b
 - Alternatively, using TypeAlias (Python 3.10+):
 
