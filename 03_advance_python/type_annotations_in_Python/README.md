@@ -1,6 +1,6 @@
 # The essential guide to type annotations in Python for writing cleaner and more robust code.
 
-This course is taught by [Indently.io](#)
+This course is taught by [Indently.io](#). Python version used in this is **3.11**
 
 There are many types to use type annotations, so we will learn such methods in this course.
 
