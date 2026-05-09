@@ -29,9 +29,10 @@ if __name__ == "__main__":
 
     # Hardcoded demo values — no input() needed to prove the concept
     x: float = 10.0
-    y: float = 4.0
+    y: float = 40.0
 
     print(f"Demo values  ->  x = {x},  y = {y}\n")
-    print(f"add(x, y)      = {add(x, y):,.2f}")       # calls cal.add
-    print(f"minus(x, y)    = {minus(x, y):,.2f}")     # calls cal.minus  (y - x)
+    print(f"add(x, y)      = {add(75, 10, 10, 5):,.2f}")       # calls cal.add
+    # calls cal.minus  (y - x)
+    print(f"minus(x, y)    = {minus(x, y):,.2f}")
     print(f"multiply(x, y) = {multiply(x, y):,.2f}")  # calls cal.multiply

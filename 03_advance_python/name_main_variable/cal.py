@@ -22,9 +22,9 @@ If another file imports cal, that block is completely skipped.
 """
 
 
-def add(x: float, y: float) -> float:
+def add(*numbers: float) -> float:
     """Return the sum of x and y."""
-    return x + y
+    return sum(numbers)
 
 
 def minus(x: float, y: float) -> float:
@@ -51,5 +51,6 @@ if __name__ == "__main__":
     y: float = float(input("Number 2: "))
 
     print(f"\nAddition       :  {add(x, y):,.2f}")
-    print(f"Subtraction    :  {minus(x, y):,.2f}")   # fixed: was y+x (addition again)
+    # fixed: was y+x (addition again)
+    print(f"Subtraction    :  {minus(x, y):,.2f}")
     print(f"Multiplication :  {multiply(x, y):,.2f}")
