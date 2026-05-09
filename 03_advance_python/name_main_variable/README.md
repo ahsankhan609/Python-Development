@@ -7,6 +7,8 @@ In Python, `__name__` is a special built-in variable that indicates how a module
 ## Course resources
 
 - [What is Name Variable in Python - Code-Yug](https://youtu.be/9x48vK-QCfY?si=Uv4GEGadfutjr0Tf) ✅ July 25, 2022
+- [If __name__ == "__main__" for Python Developers](https://www.youtube.com/watch?v=NB5LGzmSiCs) ✅ Nov 27, 2022
+- [If __name__ == '__main__' for Python Beginners - Indently.io](https://www.youtube.com/watch?v=hZ9rsHdcxtY) ✅ Mar 06, 2023
 
 ## How It Works
 
