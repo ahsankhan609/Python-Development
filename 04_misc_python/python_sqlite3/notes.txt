@@ -1,0 +1,39 @@
+# to store titles in database, we will create a list of tuples.
+# Each tuple will contain id and title of the book.
+titles: list[tuple[str, int, str]] = [
+    ("Quran", 632, "Prophet Muhammad (PBUH)"),
+    ("The Hunger Games", 2005, "John Smith"),
+    ("The Great Gatsby", 2006, "John Smith"),
+    ("The Maze Runner", 2004, "John Smith"),
+    ("The Lord of Rings", 2003, "John Smith"),
+]    
+    
+    
+    # execute() method is used to execute sql commands and queries.
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS books (
+    title_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT,
+    published_year INTEGER,
+    author TEXT,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP)
+    """)
+
+    # insert data into the books table
+    # Use executemany to insert all rows at once and keep operations inside the
+    # connection context so the transaction is committed on exit.
+    cursor.executemany(
+        "INSERT OR IGNORE INTO books (title, published_year, author, created_at)"
+        "VALUES (?, ?, ?, CURRENT_TIMESTAMP)", titles)
+
+# fetch all records from the books table
+with sqlite3.connect(db_path) as connection:
+    cursor: sqlite3.Cursor = connection.cursor()
+    cursor.execute("SELECT * FROM books")
+    records: list[tuple] = cursor.fetchall()
+    for record in records:
+        print(record)
+
+
+# close connection
+cursor.close()

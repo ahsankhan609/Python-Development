@@ -1,39 +1,27 @@
+"""Store books titles in a sqlite3 database.
+
+- lite weight, local database. It is a file based database.
+- It is a part of python standard library.
+- no separate server required
 """
-Store books titles in a sqlite3 database.
-"""
+
 import sqlite3
-
-# lite weight, local database. It is a file based database.
-# It is a part of python standard library.
-# no separate server required
-
-# to store titles in database, we will create a list of tuples.
-# Each tuple will contain id and title of the book.
-titles: list[tuple[int, str]] = [
-    (1, "Quran"),
-    (2, "The Hunger Games"),
-    (3, "The Great Gatsby"),
-    (4, "The Maze Runner"),
-    (5, "The Lord of Rings"),
-]
+from pathlib import Path
 
 # let's create a database named books.db and connect with it.
 # If the database does not exist, it will be created automatically.
+db_path: Path = Path(__file__).parent / "db" / "books.db"
+sql_file: Path = Path(__file__).parent / "db" / "query.sql"
 
-with sqlite3.connect("books.db") as connection:
+with sqlite3.connect(db_path) as connection:
     cursor: sqlite3.Cursor = connection.cursor()
 
-    # execute() method is used to execute sql commands and queries.
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS books (
-    book_id INTEGER PRIMARY KEY,
-    title TEXT
-    )
-    """)
+    # executescript() runs all queries in the file at once
+    cursor.executescript(sql_file.read_text())
 
-    # insert data into the books table
-    # Use executemany to insert all rows at once and keep operations inside the
-    # connection context so the transaction is committed on exit.
-    cursor.executemany(
-        "INSERT OR IGNORE INTO books (book_id, title) VALUES (?, ?)", titles
-    )
+    # Fetch and display results from SELECT query
+    # cursor.execute("SELECT title FROM books WHERE published_year < 1950;")
+    cursor.execute("SELECT title FROM books WHERE published_year > 1950;")
+    records: list[tuple[str]] = cursor.fetchall()
+    for record in records:
+        print(record)
