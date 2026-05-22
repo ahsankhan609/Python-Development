@@ -6,6 +6,18 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "ipykernel>=7.2.0",
-    "mypy>=1.20.2",
     "requests>=2.33.1",
+    "urllib3>=2.6.3",
+]
+[tool.ruff]
+extend-include = ["*.ipynb"]
+exclude = [".venv", ".vscode"]
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]  # E=pycodestyle, F=pyflakes, I=isort
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.13",
 ]
