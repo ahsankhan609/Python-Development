@@ -20,4 +20,5 @@ select = ["E", "F", "I"]  # E=pycodestyle, F=pyflakes, I=isort
 [dependency-groups]
 dev = [
     "ruff>=0.15.13",
+    "ty>=0.0.38",
 ]
