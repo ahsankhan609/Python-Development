@@ -1,5 +1,2 @@
 if __name__ == "__main__":
     pass
-
-
-quote:str = "the_quick_brown_fox_jumps_over_the_lazy_dog"
