@@ -57,11 +57,13 @@ we go to librarian, ask for a book, librarian will ask for the name of the book,
 
 #### Best practices for writing SQL queries
 
-- Use **uppercase** for SQL keywords and **lowercase** for table and column names to improve readability.
+- **Database** name **must be unique** and should **not contain spaces or special characters**. it should be descriptive and meaningful.
+- Use **uppercase** for SQL keywords and **lowercase** for **table** and **column names** to improve readability.
 - Use **consistent formatting** for your SQL queries, such as using the same indentation and line breaks for all queries.
 - Use **meaningful names** for tables and columns.
 - Use **indentation** and **line breaks** to make the query more readable.
 - Use **comments** to explain the purpose of the query and the logic behind it.
+- **Always** end SQL command with a **semicolon (`;`)** to indicate the end of the command.
 - Avoid using `SELECT *` and instead specify the columns that you want to retrieve.
 - Use **aliases** to make the query more readable and to avoid ambiguity.
 - Use **parameterized queries** to prevent SQL injection attacks.
@@ -94,3 +96,45 @@ MySQL Workbench is a visual tool for database architects, developers and DBAs.
 It provides a graphical interface for designing, developing and administering MySQL databases. It allows users to create and manage databases, tables, views, stored procedures, triggers and more.
 
 It also provides features such as data modeling, SQL development, database administration and performance tuning. MySQL Workbench is available for Windows, macOS and Linux.
+
+### MySQL Datatype - Links
+
+- [Data Types (Version 8.4)](https://www.w3schools.com/mysql/mysql_datatypes.asp)
+- [MySQL data types](https://www.mysqldatatypes.com/)
+
+### DLL Commands
+
+#### Create Database
+
+```sql
+CREATE DATABASE IF NOT EXISTS database_name
+CHARACTER SET utf8mb4 -- it is optional to specify. it is just like encoding. default value is utf8mb4.
+COLLATE utf8mb4_general_ci -- these are rules of mysql, who are applied when comparing and sorting data. when we write SORT query, so it follow some rules
+ENCRYPTION='Y'; -- default value is 'N'. it is used to encrypt the database. when we set it to 'Y', so all the data in the database will be encrypted.
+```
+
+#### Show which values are set by default when we create a database
+
+```sql
+SHOW CREATE DATABASE database_name;
+```
+
+#### select database to work with
+
+```sql
+USE database_name;
+```
+
+#### list down available databases
+
+```sql
+SHOW DATABASES;
+SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA;
+```
+
+#### delete a database
+
+```sql
+DROP DATABASE database_name; -- GIVE ERROR IF NOTHING FOUND
+DROP DATABASE IF EXISTS database_name; -- NO ERROR IF NOTHING FOUND
+```
