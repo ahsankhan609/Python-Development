@@ -3,7 +3,7 @@
 * [Youtube Video](https://www.youtube.com/watch?v=zu9Hc9aSWFc)
 * [YT Video resource to practice](https://github.com/mayank953/Youtube/tree/main/Error%20Handling)
 * [Blog](https://www.programiz.com/python-programming/exception-handling)
-* [Blog - Explaination](https://www.youtube.com/watch?v=brICUKrzVR0)
+* [Blog - Explanation](https://www.youtube.com/watch?v=brICUKrzVR0)
 * [Exception handling in python - Code-Yug](https://www.youtube.com/playlist?list=PLI4OVrCFuY54VPjKLvwdOj7ToznPIhSaj) 📚
 
 ```python
