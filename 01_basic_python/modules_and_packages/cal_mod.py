@@ -1,8 +1,10 @@
 # local imports
 
-from my_pkg import fact, mod
+from my_pkg import A, fact, mod
 
 if __name__ == "__main__":
+
+    print(A)
 
     print("===" * 25)
     print(f"from {__name__} file.")
