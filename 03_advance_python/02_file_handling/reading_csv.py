@@ -22,7 +22,8 @@ def read_csv_file(csv_path: Path) -> None:
                 employee = Employee(*row)
                 print(employee)
                 """
-                print statements used for debugging should be omitted from production code. They can lead the accidental inclusion of sensitive information in logs, and are not configurable by
+                print statements used for debugging should be omitted from production code. They can lead the accidental
+                inclusion of sensitive information in logs, and are not configurable by
                 clients, unlike logging statements.
                 https://docs.astral.sh/ruff/rules/print/
                 """  # noqa: E501
