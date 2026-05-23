@@ -15,6 +15,7 @@ python.exe -m pip install --upgrade pip
 ```
 
 ## Run `mypy` for checking `type annotation` checking
+
 ```bash
 uv run mypy lambda_function.py
 ```
