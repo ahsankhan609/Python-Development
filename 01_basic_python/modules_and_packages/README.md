@@ -1,5 +1,7 @@
 # Python Modules and Packages – An Introduction
 
-## Course Resources:
+## Course Resources
 
-- [RealPython - Article](https://realpython.com/python-modules-packages/)
+- [RealPython - Article](https://realpython.com/python-modules-packages/) ✅
+- [Module in Python - GeekyShows](https://www.youtube.com/watch?v=biz8CDpIt9w) 📚
+- [Package in Python - GeekyShows](https://www.youtube.com/watch?v=0-Kh2vmSPWU) 📚
