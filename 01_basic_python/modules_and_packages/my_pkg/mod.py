@@ -10,7 +10,7 @@ a: list[int] = [100, 200, 300]
 
 
 def foo(arg: list[str]) -> None:
-    print(f'arg = {arg}')
+    print(f"arg = {arg}")
 
 # define a Class definition
 
@@ -19,7 +19,7 @@ class Foo:
     pass
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(f"from {__name__} file.")
     print("===" * 25)
     print(s)
@@ -27,7 +27,7 @@ if __name__ == '__main__':
     print("===" * 25)
     print(a)
     print("===" * 25)
-    foo(['quux', 'corge', 'grault'])
+    foo(["quux", "corge", "grault"])
     print("===" * 25)
     x: Foo = Foo()
     print(x)
