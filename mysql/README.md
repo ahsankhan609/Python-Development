@@ -1,6 +1,10 @@
 # Python and MySQL
 
-## Introduction
+## Course Lectures
+
+- [MySQL Tutorial - CodeYug](https://www.youtube.com/playlist?list=PLI4OVrCFuY57PBP1DUATVs9jj7XiStYzI)
+
+## Introduction and setup instructions
 
 MySQL is a popular open-source relational database management system. It is widely used for web applications. To connect Python applications to a MySQL database, we need to use a connector or driver. This allows us to execute SQL queries and manage the database from our Python code.
 
