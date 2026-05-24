@@ -10,16 +10,28 @@ dependencies = [
     "requests>=2.33.1",
     "urllib3>=2.6.3",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.15.13",
+    "ty>=0.0.38",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+
 [tool.ruff]
 extend-include = ["*.ipynb"]
 exclude = [".venv", ".vscode", "*.md"]
 target-version = "py314"
+line-length = 88
 
 [tool.ruff.lint]
 select = ["E", "F", "I"]  # E=pycodestyle, F=pyflakes, I=isort
 
-[dependency-groups]
-dev = [
-    "ruff>=0.15.13",
-    "ty>=0.0.38",
-]
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

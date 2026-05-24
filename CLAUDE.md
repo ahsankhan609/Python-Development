@@ -8,21 +8,75 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Package Management & Environment
 
-Uses `uv` (not pip directly) with Python 3.14. Virtual environment lives in `.venv/`.
+Always use `uv` — never `pip` directly. Python 3.14. Virtual environment lives in `.venv/`.
 
 ```bash
-# Install dependencies
+# Install / sync dependencies
 uv sync
+
+# Add a runtime dependency
+uv add <package>
+
+# Add a dev-only dependency
+uv add --dev <package>
 
 # Run a script
 uv run python <file.py>
 
-# Type-check a file
-uv run mypy <file.py>
-
 # Launch Jupyter
 uv run jupyter notebook
 ```
+
+## Tooling
+
+### Linting & Formatting — Ruff
+
+Use `ruff` for all linting and formatting. Never use `black`, `isort`, or `flake8`.
+
+```bash
+# Check for lint errors
+uv run ruff check .
+
+# Auto-fix lint errors
+uv run ruff check --fix .
+
+# Format code
+uv run ruff format .
+
+# Check formatting without writing (CI mode)
+uv run ruff format --check .
+```
+
+### Type Checking — ty
+
+Use `ty` for static type analysis. Never use `mypy`.
+
+```bash
+# Type-check the whole project
+uv run ty check
+
+# Type-check a specific file
+uv run ty check <file.py>
+```
+
+### Testing — pytest
+
+All tests live in the `tests/` folder at the project root. Use `pytest` via `uv run`.
+
+```bash
+# Run all tests
+uv run pytest
+
+# Run a specific test file
+uv run pytest tests/<test_file.py>
+
+# Run with verbose output
+uv run pytest -v
+```
+
+- Name test files `test_<module>.py`.
+- Name test functions `test_<what_is_tested>`.
+- Do not use `unittest`; write plain `pytest` functions.
 
 ## Repository Structure
 
@@ -32,6 +86,7 @@ uv run jupyter notebook
 03_advance_python/      # File I/O, multithreading, regex, type annotations, __name__/__main__
 04_misc_python/         # Miscellaneous experiments
 05_projects/            # Project work (currently sparse)
+tests/                  # All pytest test files
 ```
 
 Each topic directory typically contains:
@@ -39,14 +94,6 @@ Each topic directory typically contains:
 - `README.md` with curated learning links (YouTube, docs, blogs)
 - `notes.ipynb` for interactive exploration
 - `.py` scripts for standalone examples or exercises
-
-## Type Annotations
-
-The `03_advance_python/type_annotations_in_Python/` module is actively developed. Run mypy against files there:
-
-```bash
-uv run mypy 03_advance_python/type_annotations_in_Python/notes.py
-```
 
 ## Coding Standards
 
@@ -77,6 +124,7 @@ All `.py` files in this repo must follow these conventions.
 - `PascalCase` for classes.
 - `UPPER_CASE` for module-level constants.
 
-## No Test Suite
+## Notes
 
-There are no pytest or unittest test files. `04_misc_python/test.py` is a scratch script, not a test runner.
+- `04_misc_python/test.py` is a scratch script, not a test runner.
+- `tests/` is the authoritative location for all pytest tests.
