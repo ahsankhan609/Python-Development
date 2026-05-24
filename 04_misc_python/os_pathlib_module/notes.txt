@@ -1,0 +1,15 @@
+https://youtu.be/MeE6l17VMFk
+[Pathlib Module - Aparsoft](https://www.youtube.com/watch?v=jkbQihQDxFQ)
+Realpython - https://youtu.be/P5rlLlztkNs
+[A Deep Dive Into Pathlib And The Magic Behind It - ArjanCodes](https://www.youtube.com/watch?v=UcKkmwaRbsQ)
+https://www.youtube.com/watch?v=BGCdFaOq-IM
+https://www.youtube.com/watch?v=S5UOze6T1jg
+https://www.youtube.com/watch?v=mxwvvMZaIvU
+https://www.youtube.com/watch?v=NFw_fzcgj4Y
+https://www.youtube.com/watch?v=7L7pNGJzPac
+https://www.youtube.com/watch?v=yxa-DJuuTBI&t=4s
+https://www.youtube.com/watch?v=tJxcKyFMTGo
+https://realpython.com/ref/stdlib/pathlib/
+https://realpython.com/python-pathlib/
+https://realpython.com/lessons/exercise-read-file-pathlib/
+https://www.youtube.com/watch?v=YwhOUyTxXVE
