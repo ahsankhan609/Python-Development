@@ -13,3 +13,5 @@ https://realpython.com/ref/stdlib/pathlib/
 https://realpython.com/python-pathlib/
 https://realpython.com/lessons/exercise-read-file-pathlib/
 https://www.youtube.com/watch?v=YwhOUyTxXVE
+
+[Python-dotenv](https://www.youtube.com/playlist?list=PLqF6vzpT2rGqWC1ikAFNagDYLnRk5huPv)
