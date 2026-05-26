@@ -4,7 +4,8 @@
 
 ### Sets
 
-- [Set in Python - CodeYug](https://www.youtube.com/watch?v=t8KFj0Ess4w&list=PLI4OVrCFuY543naNBsCaRLrLSxI7MUOzZ&index=95)
+- [Set in Python - CodeYug](https://www.youtube.com/watch?v=t8KFj0Ess4w&list=PLI4OVrCFuY543naNBsCaRLrLSxI7MUOzZ&index=95) ✅
+- [Set's in Python - realpython](https://realpython.com/python-sets/) 📚
 
 ### FrozenSet
 

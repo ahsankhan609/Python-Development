@@ -1,10 +1,14 @@
-## Error Handling - Exception Handling In Python - try except finally else
+# Error Handling - Exception Handling In Python - try except finally else
 
+## Course resources
+
+* [Python's raise: Effectively Raising Exceptions in Your Code - realpython](https://realpython.com/python-raise-exception/)
+* [Exception handling in python - Code-Yug](https://www.youtube.com/playlist?list=PLI4OVrCFuY54VPjKLvwdOj7ToznPIhSaj) 📚
 * [Youtube Video](https://www.youtube.com/watch?v=zu9Hc9aSWFc)
 * [YT Video resource to practice](https://github.com/mayank953/Youtube/tree/main/Error%20Handling)
 * [Blog](https://www.programiz.com/python-programming/exception-handling)
 * [Blog - Explanation](https://www.youtube.com/watch?v=brICUKrzVR0)
-* [Exception handling in python - Code-Yug](https://www.youtube.com/playlist?list=PLI4OVrCFuY54VPjKLvwdOj7ToznPIhSaj) 📚
+* [Blog - Custom Python Exceptions](https://jacobpadilla.com/writing/Custom-Python-Exceptions) 📚
 
 ```python
 # my code example

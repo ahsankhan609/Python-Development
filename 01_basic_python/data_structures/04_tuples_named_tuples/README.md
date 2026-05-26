@@ -9,3 +9,4 @@
 * [Write Pythonic and Clean Code With namedtuple](https://realpython.com/python-namedtuple/)
 * [Writing Clean, Pythonic Code With namedtuple - Video](https://realpython.com/courses/python-namedtuple/)
 * [Coding With namedtuple & Python's Dynamic Superpowers | Real Python Podcast # 149](https://www.youtube.com/watch?v=nN7TV_A2hrs)
+* [Write Pythonic and Clean Code With namedtuple - realpython](https://realpython.com/python-namedtuple/) 📚

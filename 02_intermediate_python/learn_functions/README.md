@@ -1,9 +1,10 @@
 # Functions in Python
 
-### Course Resources
+## Course Resources
 
 - [Functions in Python - CodeYug](https://www.youtube.com/playlist?list=PLI4OVrCFuY54obnQ2gqfLKsy6l6a_o5dl) ✅
 - [Lecture 6 : Functions & Recursion in Python](https://www.youtube.com/watch?v=OvTH-7ESoRA) 📚
+- [What does arrow(->) mean in Python? - realpython](https://realpython.com/what-does-arrow-mean-in-python/) 📚
 
 ---
 
@@ -21,6 +22,7 @@
 ### `__name__ == __main__` explained
 
 - [You should put this in all your Python scripts | if __name__ == '__main__':](https://www.youtube.com/watch?v=g_wlZ9IhbTs)📚
+- [Defining the Main Function - realpython](https://realpython.com/python-main-function/) 📚
 
 ---
 
@@ -28,3 +30,10 @@
 
 - [Python Lambda Functions Explained](https://youtu.be/HQNiSfb795A?si=OtKsHZcpkRBSmVb2) 📚
 - [Python Lambda Functions??](https://youtu.be/KR22jigJLok?si=8reNpkI8vsBFkRKp) 📚
+- [How to Use Python Lambda Functions - realpython](https://realpython.com/python-lambda/) 📚
+
+---
+
+### lru_cache decorator
+
+- [Caching in Python Using the LRU Cache Strategy - realpython](https://realpython.com/lru-cache-python/) 📚

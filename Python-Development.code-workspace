@@ -5,6 +5,11 @@
 		}
 	],
 	"settings": {
-		"python.languageServer": "None"
+		"python.languageServer": "None",
+		"cSpell.words": [
+			"freecodecamp",
+			"pytest",
+			"freecodecamp",
+		]
 	}
 }
