@@ -8,8 +8,9 @@
 		"python.languageServer": "None",
 		"cSpell.words": [
 			"freecodecamp",
+			"geeksforgeeks",
 			"pytest",
-			"freecodecamp",
+			"Unittesting"
 		]
 	}
 }
