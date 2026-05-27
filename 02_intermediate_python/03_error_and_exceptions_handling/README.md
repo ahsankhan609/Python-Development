@@ -2,13 +2,13 @@
 
 ## Course resources
 
-* [Python's raise: Effectively Raising Exceptions in Your Code - realpython](https://realpython.com/python-raise-exception/)
-* [Exception handling in python - Code-Yug](https://www.youtube.com/playlist?list=PLI4OVrCFuY54VPjKLvwdOj7ToznPIhSaj) 📚
-* [Youtube Video](https://www.youtube.com/watch?v=zu9Hc9aSWFc)
-* [YT Video resource to practice](https://github.com/mayank953/Youtube/tree/main/Error%20Handling)
-* [Blog](https://www.programiz.com/python-programming/exception-handling)
-* [Blog - Explanation](https://www.youtube.com/watch?v=brICUKrzVR0)
-* [Blog - Custom Python Exceptions](https://jacobpadilla.com/writing/Custom-Python-Exceptions) 📚
+* [Complete Error Handling in just 2 hours - Mayank Aggarwal - YouTube](https://www.youtube.com/watch?v=zu9Hc9aSWFc) ✅
+* [YT Video resource to practice - Mayank Aggarwal](https://github.com/mayank953/Youtube/tree/main/Error%20Handling) ✅
+* [Exception handling in python - Code-Yug](https://www.youtube.com/playlist?list=PLI4OVrCFuY54VPjKLvwdOj7ToznPIhSaj) ✅
+* [Blog - Exception Handling in Python - Programiz](https://www.programiz.com/python-programming/exception-handling) 📚
+* [Python Exception Handling (Use Try..Except to Catch Errors!) - Programiz](https://www.youtube.com/watch?v=brICUKrzVR0) ✅
+* [Blog - Python Custom Exceptions: How to Create and Organize Them](https://jacobpadilla.com/writing/Custom-Python-Exceptions) ✅
+* [Python's raise: Effectively Raising Exceptions in Your Code - realpython](https://realpython.com/python-raise-exception/) 📚
 
 ```python
 # my code example
