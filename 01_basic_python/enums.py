@@ -1,7 +1,7 @@
 """
 it is very important concept in python. which allow us to define the constant value.
 for example: a lamp has 2 states.On or Off. so we must have to create those 2 states
-manually. eith it will be turned_On or turned_Off
+manually. either it will be turned_On or turned_Off
 """
 
 from enum import Enum

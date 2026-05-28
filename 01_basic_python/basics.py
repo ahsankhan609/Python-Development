@@ -78,8 +78,8 @@ is_empty = None
 
 #################################################################################################################
 print("####" * 35)
-print("basic arithmatic operations")
-# basic arithmatic operation
+print("basic arithmetic operations")
+# basic arithmetic operation
 num_1: int = 10
 num_2: int = 5
 
