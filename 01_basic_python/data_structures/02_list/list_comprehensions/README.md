@@ -1,7 +1,7 @@
-## Python List Comprehension
+# Python List Comprehension
 
-#### Course resources:
+## Course Resources:-
 
 - [Python List Comprehension: Tutorial With Examples](https://realpython.com/list-comprehension-python/) - Dec, 27, 2024 📚
-- 
+
 ---
