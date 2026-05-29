@@ -7,10 +7,10 @@
 this is an example of multiline comments
 """
 
-'''
+"""
 this is another example of multiline comments
-'''
-print('this is example of print statement.')
+"""
+print("this is example of print statement.")
 
 print("####" * 35)
 
@@ -47,30 +47,41 @@ zero_number: int = 0  # zero integer
 # when printed, it is ignored by interpreter
 formated_big_number: int = 1_000_000
 decimal_number: float = 10.25  # float integer
-com_number: complex = 4+8j  # complex number
-people_names: list[str] = ["John", "Smith",
-                           "Mario", "kuigi"]  # list of strings
+com_number: complex = 4 + 8j  # complex number
+people_names: list[str] = ["John", "Smith", "Mario", "kuigi"]  # list of strings
 cart: list[int] = [10, 20, 30, 40, 50]  # list of integers
-another_cart: list[int | float] = [10, 20.25, 30,
-                                   40.45, 50, 60.65]  # list of integers and float
-lotto_numbers: tuple = (1, 2, 3, 4, 5, 6)  # Tuple
+another_cart: list[int | float] = [
+    10,
+    20.25,
+    30,
+    40.45,
+    50,
+    60.65,
+]  # list of integers and float
+lotto_numbers: tuple[int, ...] = (1, 2, 3, 4, 5, 6)  # Tuple of integers
+string_tuple: tuple[str, ...] = ("a", "b", "c")  # Tuple of strings
+mixed_tuples: tuple[int | str | float, ...] = (1, 2, 3, "a", "b", "c")  # mixed tuple
 set_of_numbers: set[int] = {1, 2, 3, 4, 5, 6, 6, 5, 9, 1, 2, 3, 8}
 frozen_set: frozenset[int] = frozenset({1, 2, 3, 4, 5, 6, 6, 5, 9, 1, 2, 3, 8})
 
-# when we print it in terminal, it will only print unique values if there are same values. and don't keep the order in which we give it data
+# when we print it in terminal, it will only print unique values
+# if there are same values, and don't keep the order in which we give it data
 print(
-    f"List of set with unique numbers :{set_of_numbers}. \n List of frozen set with unique numbers :{set_of_numbers}")
+    f"List of set with unique numbers :{set_of_numbers}. "
+    f"\n List of frozen set with unique numbers :{set_of_numbers}"
+)
 range_of_numbers = range(1, 10)  # return a range object of numbers from 1-9
 for range_of_number in range_of_numbers:
     print(range_of_number)
 dictionary_of_users: dict[str, str] = {
-    'user1': "John",
-    'user2': "Smith",
-    'user3': "Mario",
+    "user1": "John",
+    "user2": "Smith",
+    "user3": "Mario",
 }  # first way to write dictionary
 dict_of_users: dict[str, str] = dict(
-    user1="John", user2="Smith", user3="Mario")  # another way to write dictionary
-print(dict_of_users['user2'])  # access the value by key
+    user1="John", user2="Smith", user3="Mario"
+)  # another way to write dictionary
+print(dict_of_users["user2"])  # access the value by key
 
 is_connected: bool = True
 is_online: bool = False
@@ -99,7 +110,7 @@ print(divide_nums)
 modulo_nums: int = num_1 % num_2
 print(modulo_nums)
 
-exponent_nums: int = num_1 ** num_2
+exponent_nums: int = num_1**num_2
 print(f"{exponent_nums:,}")
 
 flow_division_nums: int = num_1 // num_2
