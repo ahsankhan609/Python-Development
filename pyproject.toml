@@ -32,7 +32,7 @@ target-version = "py314"
 line-length = 88
 
 [tool.ruff.lint]
-select = ["E", "F", "I"]  # E=pycodestyle, F=pyflakes, I=isort
+select = ["ALL"]  # ALL=all rules, E=pycodestyle, F=pyflakes, I=isort
 
 [tool.ruff.format]
 quote-style = "double"
