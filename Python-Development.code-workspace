@@ -7,11 +7,8 @@
 	"settings": {
 		"python.languageServer": "None",
 		"cSpell.words": [
-			"Docstrings",
-			"freecodecamp",
-			"geeksforgeeks",
-			"pytest",
-			"Unittesting"
+			"dataclasses",
+			"mahira"
 		]
 	}
 }
