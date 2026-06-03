@@ -24,8 +24,8 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-# parents[0] = 04_misc_python/, parents[1] = project root
-_ENV_FILE: Path = Path(__file__).parents[1] / ".env"
+# parents[0] = reading_env_variables/, parents[1] = 04_misc_python/, parents[2] = project root
+_ENV_FILE: Path = Path(__file__).parents[2] / ".env"
 
 load_dotenv(_ENV_FILE)  # injects .env variables into os.environ
 

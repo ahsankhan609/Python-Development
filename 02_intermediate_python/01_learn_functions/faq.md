@@ -3,6 +3,7 @@
 ## Code Review Summary
 
 ### Status
+
 No linter errors, no type errors, no syntax issues.
 
 ---
@@ -12,6 +13,7 @@ No linter errors, no type errors, no syntax issues.
 `cache_clear()` returns `None`. Printing it always outputs `None`, which is misleading.
 
 **Current (line 85):**
+
 ```python
 print(fibonacci.cache_clear())
 ```

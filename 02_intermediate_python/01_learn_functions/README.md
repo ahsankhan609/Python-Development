@@ -10,6 +10,8 @@
 
 ### `Builtin Functions` explained
 
+- [Built-in Functions - Python Documentation](https://docs.python.org/3/library/functions.html) 📚
+
 - [49 Useful Built-In Functions in Python](https://www.youtube.com/watch?v=M16LicU5WfM) 📚
 - [Why I Explicitly Return “None” In All My Functions (Python)](https://www.youtube.com/watch?v=GSZhXVjuLgA)✅
 - [Please Master These 10 Python Functions](https://www.youtube.com/watch?v=kGcUtckifXc) 📚
@@ -37,3 +39,10 @@
 ### lru_cache decorator
 
 - [Caching in Python Using the LRU Cache Strategy - realpython](https://realpython.com/lru-cache-python/) 📚
+- [LRU Cache | Brute Force | Optimal | Detailed | Leetcode 146 - codestorywithmik](https://www.youtube.com/watch?v=81h8O-0U5oo) 📚
+- [LeetCode 146: LRU Cache](https://www.youtube.com/watch?v=Kf-8gBUPX0I) 📚
+https://www.youtube.com/watch?v=z9bJUPxzFOw
+https://www.youtube.com/watch?v=IFWBHaICgD0
+https://www.youtube.com/watch?v=Hi5obC_CwIU
+https://www.youtube.com/watch?v=RyB2RRY70n0
+https://www.youtube.com/watch?v=CLF9sxOeLLw
