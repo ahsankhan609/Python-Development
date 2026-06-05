@@ -3,38 +3,14 @@
 # single line comment
 # always give a space after # sign for comments
 
-"""
-this is an example of multiline comments
+"""example of multiline comments.
+
+description of the module will come here.
+it will be in triple quotes.
+and it will be used to describe the module.
 """
 
-"""
-this is another example of multiline comments
-"""
 print("this is example of print statement.")
-
-print("####" * 35)
-
-# creating variables
-
-name: str = "John"
-print(name)
-
-print("####" * 35)
-
-# python is case-sensitive language
-x: int = 10
-X: int = 11
-print(x)  # it is different from X
-print(X)  # it is different from x
-print("####" * 35)
-
-
-# CONSTANT variables in python
-"""python is explainability no way to announce CONSTANT variables, so developers use CAPITAL name for variables,
- when they need to define any CONSTANT variable."""
-PI = 3.1415
-# we can change it anytime, but we should follow naming convention and don't change it
-API_KEY = "hdsfas2439387eoiyqyr326975"
 
 print("####" * 35)
 
@@ -48,7 +24,8 @@ zero_number: int = 0  # zero integer
 formated_big_number: int = 1_000_000
 decimal_number: float = 10.25  # float integer
 com_number: complex = 4 + 8j  # complex number
-people_names: list[str] = ["John", "Smith", "Mario", "kuigi"]  # list of strings
+people_names: list[str] = ["John", "Smith",
+                           "Mario", "kuigi"]  # list of strings
 cart: list[int] = [10, 20, 30, 40, 50]  # list of integers
 another_cart: list[int | float] = [
     10,
@@ -60,7 +37,8 @@ another_cart: list[int | float] = [
 ]  # list of integers and float
 lotto_numbers: tuple[int, ...] = (1, 2, 3, 4, 5, 6)  # Tuple of integers
 string_tuple: tuple[str, ...] = ("a", "b", "c")  # Tuple of strings
-mixed_tuples: tuple[int | str | float, ...] = (1, 2, 3, "a", "b", "c")  # mixed tuple
+mixed_tuples: tuple[int | str | float, ...] = (
+    1, 2, 3, "a", "b", "c")  # mixed tuple
 set_of_numbers: set[int] = {1, 2, 3, 4, 5, 6, 6, 5, 9, 1, 2, 3, 8}
 frozen_set: frozenset[int] = frozenset({1, 2, 3, 4, 5, 6, 6, 5, 9, 1, 2, 3, 8})
 
