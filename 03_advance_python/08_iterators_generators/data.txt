@@ -1,5 +1,0 @@
-this is a demo data
-let's read it
-what is your name
-what is my name
-where are you from
