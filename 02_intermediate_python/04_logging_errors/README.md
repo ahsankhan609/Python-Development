@@ -1,8 +1,6 @@
 # Logging Errors Like a PRO in Python Made Easy
 
-* [Lecture Video](https://youtu.be/ulCL6JcCBI4?si=shRZSyJy-JYxnCDk)
-* [Python Logging - Tutorial](https://www.youtube.com/watch?v=urrfJgHwIJA)
-* [Documentation](https://docs.python.org/3/library/logging.html#logrecord-attributes)
+* [Documentation](https://docs.python.org/3/library/logging.html#logrecord-attributes) 📚
 * [What are logs in programming? - freecodecamp](https://www.freecodecamp.org/news/what-are-logs-in-programming/) 📚
 * [How to Use Loguru for Simpler Python Logging - realpython](https://realpython.com/python-loguru/) 📚
 
