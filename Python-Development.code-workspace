@@ -10,7 +10,21 @@
 			"classmethod",
 			"dataclasses",
 			"fibonacci",
-			"mahira"
+			"mahira",
+			"corge",
+			"dbmaster",
+			"executescript",
+			"gmtime",
+			"grault",
+			"Indently",
+			"ipynb",
+			"localtime",
+			"Loeber",
+			"mypy",
+			"rmdirs",
+			"strptime",
+			"timedelta",
+			"userinput"
 		]
 	}
 }
