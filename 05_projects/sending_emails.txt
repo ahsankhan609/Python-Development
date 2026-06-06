@@ -1,2 +1,0 @@
-https://realpython.com/python-send-email/
-https://realpython.com/storing-images-in-python/#a-dataset-to-play-with
