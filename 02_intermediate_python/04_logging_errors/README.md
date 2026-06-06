@@ -8,9 +8,9 @@
 
 ## Benefits of having logging in your code
 
-- Monitoring your code
-- Catching Problems
-- Catching bugs
-- logging is beneficial when tracking user activities in the web app
-- Recording system errors, in production environment
-- troubleshooting background tasks in data processing tasks
+* Monitoring your code
+* Catching Problems
+* Catching bugs
+* logging is beneficial when tracking user activities in the web app
+* Recording system errors, in production environment
+* troubleshooting background tasks in data processing tasks
