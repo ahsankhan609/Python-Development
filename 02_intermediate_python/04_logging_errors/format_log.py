@@ -4,13 +4,14 @@ import logging
 # DEBUG and INFO. In Jupyter, the kernel may already have handlers — force=True
 # re-applies this config so DEBUG/INFO are not silently dropped.
 logging.basicConfig(
-    format="\n%(levelname)s:%(name)s:%(message)s-%(process)d-%(thread)d:%(asctime)s",
+    format="\n{asctime} {lineno}:{levelname}:{name}:{message}-{process}-{thread}:",
     level=logging.DEBUG,
     filename="my_log.log",
     filemode="w",
     encoding="utf-8",
     force=True,
-    # helps to format the log messages with the help of %(levelname)s:%(name)s:%(message)
+    style="{",
+    # helps to format the log messages
 )
 
 logger = logging.getLogger(__name__)
