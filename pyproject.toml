@@ -10,6 +10,7 @@ dependencies = [
     "pytest>=9.0.3",
     "python-dotenv>=1.2.2",
     "requests>=2.33.1",
+    "schedule>=1.2.2",
     "urllib3>=2.6.3",
 ]
 
