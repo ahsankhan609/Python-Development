@@ -1,0 +1,37 @@
+<users>
+    <user>
+        <name>Alice Johnson</name>
+        <age>28</age>
+        <city>New York</city>
+        <education>B.Sc. Computer Science</education>
+        <salary>78000</salary>
+    </user>
+    <user>
+        <name>Mohammed Faisal</name>
+        <age>34</age>
+        <city>Dubai</city>
+        <education>MBA</education>
+        <salary>95000</salary>
+    </user>
+    <user>
+        <name>Priya Singh</name>
+        <age>25</age>
+        <city>Mumbai</city>
+        <education>B.A. Economics</education>
+        <salary>62000</salary>
+    </user>
+    <user>
+        <name>Liam O'Brien</name>
+        <age>31</age>
+        <city>Dublin</city>
+        <education>M.Sc. Data Analytics</education>
+        <salary>84000</salary>
+    </user>
+    <user>
+        <name>Emily Zhang</name>
+        <age>29</age>
+        <city>Beijing</city>
+        <education>PhD. Chemistry</education>
+        <salary>99000</salary>
+    </user>
+</users>
