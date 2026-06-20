@@ -1,0 +1,21 @@
+[
+    {
+        "Name": "Andrew",
+        "Age": 23,
+        "City": "NY",
+        "state": "NY",
+        "RollNumber": 90014,
+        "Subject": [
+            "Data Structure",
+            "Computer Graphics",
+            "Discrete mathematics"
+        ],
+        "Married": false
+    },
+    {
+        "name": "john",
+        "age": 22,
+        "is_married": false,
+        "insurance": null
+    }
+]
